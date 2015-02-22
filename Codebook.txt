@@ -1,0 +1,45 @@
+The tidy data set in tidydata.txt contains 180 rows and 67 columns. Each row corresponds
+to a study subject and activity pairing, labeled accordingly in column 1, "subject/activity". 
+There were 30 subjects, numbered ordinally, and six activities that each subject 
+performed. The six activities are:
+
+STANDING
+SITTING 
+LAYING
+WALKING 
+WALKING_DOWNSTAIRS
+WALKING_UPSTAIRS
+
+Hence, the row labeled 9.SITTING corresponds to subject 9's accelerometer data
+for sitting.
+
+As stated above, column 1, "subject/activity" refers to the subject/activity 
+pairing. Columns 2-67 correspond to 66 different variables of accelerometer data 
+collected in the study data. Variable data have been averaged for each subject/activity
+pair, including both testing and training data. 
+
+Measured signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+From these signals mean [mean()] and standard deviation [std()] were calculated.
+For example, column 3, "2 tBodyAcc-mean()-Y"
+corresponds to mean values of tBodyAcc in the Y direction.
+
